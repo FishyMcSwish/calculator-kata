@@ -1,0 +1,42 @@
+.calculator{
+	width: 200px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+}
+.calculator-row{
+	display: flex;
+	flex-direction: row;
+}
+.calc-button{
+	height: 50px;
+	width: 50px;
+	border: 1px solid grey;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	cursor: pointer;
+}
+.calc-button.double-wide{
+	width: 102px;
+}
+
+.calc-button.disabled {
+	background-color: lightgrey;
+	color: grey;
+	cursor: default;
+}
+
+.calc-button.operator {
+	background-color: orange;
+	color: white;
+}
+
+.response-pane{
+	background-color: black;
+	color: white;
+	width: 200px;
+	height: 50px;
+	text-align: right;
+}
+
